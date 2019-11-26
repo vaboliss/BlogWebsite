@@ -18,5 +18,4 @@ function validate_token($token, $key)
     } catch (Exception $e) {
         return null;
     }
-    return null;
 }
